@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: auth-service
-        image: your-dockerhub-username/auth-service:latest   # replace with your built image
+        image: kirandeget/auth-service:latest   # replace with your built image
         ports:
         - containerPort: 8080
